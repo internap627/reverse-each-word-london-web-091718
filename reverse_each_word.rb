@@ -7,6 +7,9 @@ return newArray.join(" ")
 end
 
 def reverse_collect_word(str)
+  
+array = []
+array.collect
 
 str.split().collect {|word| word.reverse }.join(" ")
 
