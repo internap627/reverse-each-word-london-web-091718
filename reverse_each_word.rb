@@ -1,6 +1,8 @@
-def reverse_collect_word(str)
+def reverse_each_word(str)
+newArray = []
+str.split().each {|word| newArray.push(word.reverse) }
 
-str.split().collect {|word| word.reverse }.join(" ")
-
+return newArray.join(" ")
 
 end
+
